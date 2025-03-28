@@ -4,9 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind</title>
-    <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Tailwind en freeCodeCamp</h1>
+    <h1 class="text-3xl font-bold underline bg-kz text-white">
+      Tailwind en freeCodeCamp
+    </h1>
+    <h1 class="bg-fuchsia-400 text-cyan-900">Tailwind en freeCodeCamp</h1>
+
+    <button
+      class="bg-purple-700 hover:bg-purple-900 text-white p-2 rounded-lg mx-auto my-5 block"
+    >
+      Apachurrame
+    </button>
+
+    <div>
+      <div class="h-14 bg-gradient-to-r from-kz to-purple-700"></div>
+      <div class="h-14 bg-gradient-to-r from-kz/50 to-purple-700/80"></div>
+      <div class="h-14 bg-linear-to-r from-cyan-500 to-blue-500"></div>
+      <div class="h-14 bg-linear-to-t from-sky-500 to-indigo-500"></div>
+      <div class="h-14 bg-linear-to-bl from-violet-500 to-fuchsia-500"></div>
+      <div class="h-14 bg-linear-65 from-purple-500 to-pink-500"></div>
+    </div>
+    <div class="text-4xl font-extrabold">
+      <span
+        class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
+        >HELLO WORLD</span
+      >
+    </div>
   </body>
 </html>
