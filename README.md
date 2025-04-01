@@ -1,6 +1,6 @@
 # Aprendiendo Tailwind
 
-Repositorio personal para llevar nota de los avances con el [curso de freeCodeCamp](https://www.youtube.com/watch?v=5HtRcMSO1Ro) para aprender TailwindCSS.
+Repositorio personal para ir tomando notas del [curso de freeCodeCamp](https://www.youtube.com/watch?v=5HtRcMSO1Ro) para aprender TailwindCSS.
 
 ## Index
 
